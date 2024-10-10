@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #900;
+  font-size: 2em;
+  padding: 5px;
+}
+@media (min-width: 769px) {
+  body {
+    padding: 50px;
+  }
+}
+.container {
+  vertical-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+  background: #fff;
+}
+.container .message {
+  text-align: center;
+}
+.container nav {
+  width: 100%;
+  background: #ccc;
+  border-bottom: 1px solid #fff;
+  overflow: hidden;
+  position: relative;
+  min-height: 50px;
+}
+@media (max-width: 768px) {
+  .container nav {
+    /* CSS in here for mobile only */
+  }
+  .container nav ul {
+    display: none;
+  }
+  .container nav ul li a {
+    text-transform: uppercase;
+  }
+  .container nav ul li a.active {
+    background: #fff;
+    color: #333;
+  }
+  .container nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .container nav a.humburger {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 17px;
+  }
+}
+@media (min-width: 769px) {
+  .container nav {
+    /* CSS in here for desktop and table */
+  }
+  .container nav a.humburger,
+  .container nav p {
+    display: none;
+  }
+  .container nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .container nav ul li {
+    text-transform: uppercase;
+  }
+  .container nav ul li a {
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    color: #999;
+    text-align: center;
+    height: 100%;
+    border-bottom: 1px solid #999;
+  }
+  .container nav ul li a.active {
+    background: #fff;
+    color: #333;
+  }
+}
+.container nav.sub {
+  font-size: 0.8em;
+}
+@media (min-width: 769px) {
+  .container nav.sub {
+    /* CSS in here for desktop and table */
+  }
+  .container nav.sub ul li a {
+    padding: 13px;
+  }
+}
+section {
+  display: none;
+}
+section.visibile {
+  display: block;
+}
+section .subtabs {
+  display: none;
+}
+section .subtabs.visibile {
+  display: block;
+}
+section form {
+  margin: 5%;
+  justify-content: center;
+  text-align: center;
+}
+section form input[type=text],
+section form input[type=number] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1.3em;
+}
+section form input[type=text]:not(.short),
+section form input[type=number]:not(.short) {
+  width: 80%;
+}
+section form input[type=submit],
+aside form input[type=submit] {
+  background-color: #900 !important;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 6px 18px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+aside {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+aside #result {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+aside form {
+  display: block;
+}
+aside form input[type=submit].upd {
+  background-color: #090 !important;
+}
+aside form input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+aside form b {
+  padding: 0 10px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 15px;
+}
+aside div.gomma,
+aside div.articolo {
+  margin: 20px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  width: 300px;
+}
+aside div.gomma:hover,
+aside div.articolo:hover {
+  box-shadow: 0 0 10px 5px #888888;
+}
+aside div.gomma p,
+aside div.articolo p {
+  padding: 15px;
+}
+aside div.gomma p.numero,
+aside div.articolo p.numero,
+aside div.gomma p.immagine,
+aside div.articolo p.immagine {
+  text-align: center;
+  font-size: 4rem;
+}
+aside div.gomma p.numero img,
+aside div.articolo p.numero img,
+aside div.gomma p.immagine img,
+aside div.articolo p.immagine img {
+  width: 250px;
+  height: 250px;
+}
+aside div.gomma p.contenuto,
+aside div.articolo p.contenuto {
+  background: #ccc;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+}
+aside div.gomma p.desc,
+aside div.articolo p.desc {
+  background: #ccc;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  font-size: 0.7em;
+  min-height: 130px;
+}
+aside div.gomma p.data,
+aside div.articolo p.data,
+aside div.gomma p.prezzo,
+aside div.articolo p.prezzo {
+  background: #eee;
+  position: absolute;
+  font-size: 0.5em;
+  border-radius: 10px;
+  padding: 10px;
+  top: -20px;
+}
+aside div.gomma p.data,
+aside div.articolo p.data {
+  left: -10px;
+}
+aside div.gomma p.prezzo,
+aside div.articolo p.prezzo {
+  right: -10px;
+}
+aside div.gomma p.ads,
+aside div.articolo p.ads {
+  background: #ccc;
+  font-size: 0.5em;
+  text-align: center;
+}
+aside div.gomma i,
+aside div.articolo i {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+footer {
+  color: white;
+  font-size: 0.5em;
+}
+.w3-modal {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.w3-modal-content {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  width: 600px;
+}
+.w3-container:after,
+.w3-container:before,
+.w3-panel:after,
+.w3-panel:before,
+.w3-row:after,
+.w3-row:before,
+.w3-row-padding:after,
+.w3-row-padding:before,
+.w3-cell-row:before,
+.w3-cell-row:after,
+.w3-clear:after,
+.w3-clear:before,
+.w3-bar:before,
+.w3-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+.w3-btn,
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.w3-display-topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.w3-container,
+.w3-panel {
+  padding: 0.01em 16px;
+}
+.w3-green,
+.w3-hover-green:hover {
+  color: #fff !important;
+  background-color: #4CAF50 !important;
+}
+.w3-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.w3-btn,
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.w3-btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.w3-btn,
+.w3-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.w3-disabled,
+.w3-btn:disabled,
+.w3-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+.w3-disabled *,
+:disabled * {
+  pointer-events: none;
+}
+.w3-btn.w3-disabled:hover,
+.w3-btn:disabled:hover {
+  box-shadow: none;
+}

@@ -1,0 +1,613 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hei",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"iss",
+				"isset()"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"--",
+				"--tono"
+			],
+			[
+				"sesso",
+				"session_destroy()"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"fun",
+				"function_exists()"
+			],
+			[
+				"mys",
+				"mysqli_fetch_row"
+			],
+			[
+				"_SE",
+				"$_SESSION\tSESSION['…']"
+			],
+			[
+				"print",
+				"print_r()"
+			],
+			[
+				"session_un",
+				"session_unset()"
+			],
+			[
+				"in",
+				"in_array()"
+			],
+			[
+				"is",
+				"is_array()"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"min",
+				"minlength"
+			],
+			[
+				"ma",
+				"maxlength"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"inline-",
+				"inline-grid"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"uk-secto",
+				"uk-section-primary"
+			],
+			[
+				"uti",
+				"utile_commessa"
+			],
+			[
+				"dil",
+				"dilazione_pag"
+			],
+			[
+				"costo_",
+				"costo_materiale"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"rig",
+				"riga_da_cancellare"
+			],
+			[
+				"edit",
+				"edit_addremove"
+			],
+			[
+				"php",
+				"phpinfo()"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"tab",
+				"tabsclass"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"uk-ma",
+				"uk-margin-small "
+			],
+			[
+				"uk-bu",
+				"uk-button-primary "
+			],
+			[
+				"un-la",
+				"uk-margin-large "
+			],
+			[
+				"uk-se",
+				"uk-section "
+			],
+			[
+				"uk-ta",
+				"uk-tab "
+			],
+			[
+				"uk-center",
+				"uk-position-center "
+			],
+			[
+				"uk",
+				"uk-section "
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"prin",
+				"printf()"
+			],
+			[
+				"temp_",
+				"temp_array"
+			],
+			[
+				"cls",
+				"cls-2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/lessc/lessc.sublime-build",
+					""
+				],
+				[
+					"Packages/lessc/lessc.sublime-build",
+					"Non-Minified"
+				]
+			],
+			[
+				"Packages/lessc/lessc.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"codeb",
+				"PHP CodeBeautifier"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"live",
+				"LiveReload: Self test"
+			],
+			[
+				"php fo",
+				"CodeFormatter: Show PHP Transformations"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ftp",
+				"FTPSync: Setup FTPSync in this folder"
+			],
+			[
+				"jso",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"li",
+				"LiveReload: Self test"
+			],
+			[
+				"code",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"sublimelinter lin",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"pac",
+				"Preferences: Package Control Settings"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 446.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/gomme/index.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/gomme/gomme.js",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/gomme/articli.js",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/gomme/gomme.css.map",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/gomme/gomme.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/gomme/gomme.less",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/gomme/INSERT INTO",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/gomme/articoli.php",
+		"/Volumes/HD3TB/casalegno/Library/Caches/com.binarynights.ForkLift-3/FileCache/493DE2A6-C430-43B2-8D42-A550650D4DFC/wp-config.php",
+		"/Volumes/HD3TB/casalegno/Downloads/wp_options.sql",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/css.css",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/register.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/template/conferma.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/function.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/template/riepilogo.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/index.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/template/registrazione.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/template/login.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/template/head.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/mieidati.php",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/User/phpcbf.sublime-settings",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/phpcbf/phpcbf.sublime-settings",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/small/login.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/mieidati.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/phpcs.phar",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/index.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/register.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/login.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/css.css",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/template/registrazione.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/form.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/template/riepilogo.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/template/login.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/function.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/template/conferma.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/template/logged_in.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/test.sublime-project",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/test/login.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/test/template/accesso.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/test/template/registrazione.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/test/css.css",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/test/register.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/testhost/app/public/test/table.sql",
+		"/Volumes/HD3TB/casalegno/Box/Areafitnessclub/Plugin_disabilitati",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/test/css.css",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/test/index.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/test/login.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/test/register.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/test/class.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/test/index.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/test/script.js",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/gomme.css",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/gomme.less",
+		"/Volumes/HD3TB/casalegno/Desktop/SVG.SVG",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/database.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/classe_db_Vechia.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/database",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/money/script.js",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/money/controller.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/portfolio/portfolio.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/portfolio/index.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/portfolio/portafolio:old.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/app/index.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/app/transactions.js",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/app/index.html.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/app/portafolio.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/app/index.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/app/index_2.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/app/custom.css",
+		"/Volumes/HD3TB/casalegno/Local Sites/bike/app/public/app/primaversione.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/index.php",
+		"/Volumes/HD3TB/casalegno/RKS/Grafica/Originali/Real Kombat System.clr",
+		"/Volumes/HD3TB/casalegno/Internxt/Cas-gomme/Cas_gomme.pyw",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/gomme.js",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/index.html",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/dbdata.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/gomme.php",
+		"/Volumes/HD3TB/casalegno/CAS/cas.dump",
+		"/Volumes/HD3TB/casalegno/CAS/Documenti/catalogomoi/20150306_test-import-prodotti-xml/products.xml",
+		"/Volumes/HD3TB/casalegno/CAS/Documenti/catalogomoi/20150306_test-import-prodotti-xml/catmob_products_company_32.xsd",
+		"/Volumes/HD3TB/casalegno/CAS/Documenti/catalogomoi/20150306_test-import-prodotti-xml/catmob_products_company_9.xsd",
+		"/Volumes/HD3TB/casalegno/Local Sites/kreatore/sftp-config.json",
+		"/Volumes/HD3TB/casalegno/Local Sites/sftp-config.json",
+		"/Volumes/HD3TB/casalegno/Library/Caches/com.binarynights.ForkLift-3/FileCache/874246CB-9D15-4F4C-8140-3A1D1288065C/feed.xml",
+		"/Volumes/HD3TB/casalegno/feed.xml",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/User/HTMLPrettify.sublime-settings",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Volumes/HD3TB/casalegno/CAS/Ordini/chiusure.csv",
+		"/Volumes/HD3TB/casalegno/CAS/Ordini/chiusure.json",
+		"/Volumes/HD3TB/casalegno/CAS/Ordini/Minuteria.csv",
+		"/Volumes/HD3TB/casalegno/CAS/Ordini/minuteria.json",
+		"/Volumes/HD3TB/casalegno/CAS/Ordini/Orecchini.csv",
+		"/Volumes/HD3TB/casalegno/CAS/Ordini/orecchini.json",
+		"/Volumes/HD3TB/casalegno/Untitled 1.csv",
+		"/Volumes/HD3TB/casalegno/call.json",
+		"/Volumes/HD3TB/casalegno/untitled.json",
+		"/Volumes/HD3TB/casalegno/listino.json",
+		"/Volumes/HD3TB/casalegno/Downloads/json_to_firestore/files/momos_nv.json",
+		"/Volumes/HD3TB/casalegno/Downloads/json_to_firestore/files/starter_v.json",
+		"/Volumes/HD3TB/casalegno/Downloads/json_to_firestore/files/starter_nv.json",
+		"/Volumes/HD3TB/casalegno/Downloads/json_to_firestore/files/momos_v.json",
+		"/Volumes/HD3TB/casalegno/Desktop/Untitled 1.csv",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/dump.sql",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/convert.php",
+		"/Volumes/HD3TB/casalegno/CAS/PDF/Crea_Catalogo.sh",
+		"/Volumes/HD3TB/casalegno/Downloads/final-cut-pro-X-title.fcpxml",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/gomme_original.js",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/app/public/gomme/index.php",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/Volumes/HD3TB/casalegno/Library/Application Support/Sublime Text 3/Packages/JavaScript Completions/Default (OSX).sublime-keymap",
+		"/Volumes/HD3TB/casalegno/Local Sites/gohost/app/public/wp-content/plugins/user-plugin-main/register_code.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/gohost/app/public/wp-content/plugins/rks-display-user-meta-shortcode/rks-display-user-meta-shortcode.php",
+		"/Volumes/HD3TB/casalegno/Downloads/esami/user-plugin/assets/js/custom.js",
+		"/Volumes/HD3TB/casalegno/Downloads/esami/user-plugin/register_code.php",
+		"/Volumes/HD3TB/casalegno/Downloads/esami/user-plugin/assets/js/select2.min.js",
+		"/Volumes/HD3TB/casalegno/Downloads/esami/user-plugin 2/assets/js/select2.min.js",
+		"/Volumes/HD3TB/casalegno/Downloads/esami/user-plugin 2/register_code.php",
+		"/Volumes/HD3TB/casalegno/Downloads/user-plugin/register_code.php",
+		"/Volumes/HD3TB/casalegno/Downloads/user-plugin 2/register_code.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/test/get.php",
+		"/Volumes/HD3TB/casalegno/Local Sites/local-host/test/index.php",
+		"/Volumes/HD3TB/casalegno/Box/Abem/Textgokart",
+		"/Volumes/HD3TB/casalegno/Clienti/Guarmet/castoni 1400-1700/castoni-prezzi"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 430.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 156.0
+	},
+	"output.exec":
+	{
+		"height": 162.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.paneltranformations":
+	{
+		"height": 36.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/lessc/lessc.sublime-build",
+	"project": "gomme.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

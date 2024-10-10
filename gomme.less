@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #900;
+    font-size: 2em;
+    padding: 5px;
+
+    @media (min-width: 769px) {
+        padding: 50px;
+    }
+}
+
+.container {
+    vertical-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999;
+    background: #fff;
+
+    .message {
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        background: #ccc;
+        border-bottom: 1px solid #fff;
+        overflow: hidden;
+        position: relative;
+        min-height: 50px;
+
+        @media (max-width: 768px) {
+
+            /* CSS in here for mobile only */
+            ul {
+                display: none;
+
+                li {
+                    a {
+                        text-transform: uppercase;
+
+                        &.active {
+                            background: #fff;
+                            color: #333;
+                        }
+                    }
+                }
+            }
+
+            a {
+                color: white;
+                padding: 14px 16px;
+                text-decoration: none;
+                display: block;
+
+                &.humburger {
+                    // Style the hamburger menu
+                    background: black;
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    font-size: 17px;
+                }
+            }
+        }
+
+        @media (min-width: 769px) {
+
+            /* CSS in here for desktop and table */
+            a.humburger,
+            p {
+                display: none;
+            }
+
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+
+                li {
+                    text-transform: uppercase;
+
+                    a {
+                        padding: 15px 20px;
+                        text-decoration: none;
+                        display: block;
+                        color: #999;
+                        text-align: center;
+                        height: 100%;
+                        border-bottom: 1px solid #999;
+
+                        &.active {
+                            background: #fff;
+                            color: #333;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.sub {
+            font-size: 0.8em;
+
+            @media (min-width: 769px) {
+
+                /* CSS in here for desktop and table */
+                ul {
+                    li {
+                        a {
+                            padding: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+section {
+    display: none;
+
+    &.visibile {
+        display: block;
+    }
+
+    .subtabs {
+        display: none;
+
+        &.visibile {
+            display: block;
+        }
+    }
+
+    form {
+        margin: 5%;
+        justify-content: center;
+        text-align: center;
+
+        input[type=text],
+        input[type=number] {
+            width: 30%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            font-size: 1.3em;
+
+            &:not(.short) {
+                width: 80%;
+            }
+        }
+
+        input[type=submit] {
+            background-color: #900 !important;
+            border-radius: 5px;
+            font-size: 17px;
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 6px 18px;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+        }
+    }
+}
+
+aside {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    #result {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        display: block;
+
+        input[type=submit]:extend(section form input[type=submit]) {}
+
+        input[type=submit].upd:extend(input[type=submit]) {
+            background-color: #090 !important;
+        }
+
+        input[type=text] {
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        b {
+            padding: 0 10px;
+            display: inline-block;
+            cursor: pointer;
+            margin: 0 15px;
+        }
+    }
+
+    div.gomma,div.articolo {
+        margin: 20px;
+        border: 1px solid #999;
+        border-radius: 10px;
+        position: relative;
+        cursor: pointer;
+        width: 300px;
+
+        &:hover {
+            box-shadow: 0 0 10px 5px #888888;
+        }
+
+        p {
+            padding: 15px;
+
+            &.numero,
+            &.immagine {
+                text-align: center;
+                font-size: 4rem;
+                img{
+                    width:250px;
+                    height: 250px;
+                }
+            }
+
+            &.contenuto {
+                background: #ccc;
+                border-radius: 0 0 10px 10px;
+                text-align: center;
+            }
+            &.desc{
+                background: #ccc;
+                border-radius: 0 0 10px 10px;
+                text-align: center;
+                font-size:0.7em;
+                min-height:130px;
+            }
+            &.data,&.prezzo {
+                background: #eee;
+                position: absolute;
+                font-size: 0.5em;
+                border-radius: 10px;
+                padding: 10px;
+                top: -20px;
+            }
+            &.data{left: -10px;}
+            &.prezzo{right: -10px;}
+
+            &.ads {
+                background: #ccc;
+                font-size:0.5em;
+                text-align: center;
+            }
+        }
+        i{
+            position: absolute;
+            bottom:0;
+            right:0;
+        }
+    }
+}
+
+footer {
+    color: white;
+    font-size: 0.5em;
+}
+
+
+
+@import "w3-css";

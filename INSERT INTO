@@ -1,0 +1,1 @@
+INSERT INTO articoli (articolo,descrizione,peso,quantita,prezzo,modifica) VALUES

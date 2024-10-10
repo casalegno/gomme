@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gestionale gomme</title>
+	<link rel="stylesheet" type="text/css" href="gomme.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" -->
+</head>
+<body>
+<div class="container">
+	<nav class="main">
+		<p>Gestionale Gomme</p>
+		<ul>
+			<li><a href="#" class="active">Cerca</a></li>
+			<li><a href="#" class="">Modifica</a></li>
+			<li><a href="#" id="btn_inserisci" class="">Inserisci</a></li>
+			<li><a href="#" class="">Catalogo</a></li>
+		</ul>
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="#" class="humburger">
+    <i class="fa fa-bars"></i>
+  </a>
+	</nav>
+	<section id="cerca" class="tabs visibile">
+		<form action="#">
+			<p>Inserisci l'articolo da cercare</p>
+			<p>
+				<input type="hidden" name="action" value="cerca">
+				<input type="text" class="cerca campo" name="cerca"></p>
+			<p><input type="submit" value="Cerca"></p>
+
+		</form>
+	</section>
+	<section id="modifica" class="tabs">
+		<form action="#">
+			<p>Inserisci il numero della gomma da modificare</p>
+			<p>
+				<input type="hidden" name="action" value="modifica">
+				<input type="text" class="modifica campo" name="modifica"></p>
+			<p><input type="submit" value="Mostra"></p>
+
+		</form>
+	</section>
+	<section id="inserisci" class="tabs">
+		<form action="#">
+			<p><input type="hidden" name="action" value="inserisci"></p>
+			<p><input type="submit" value="Inserisci"></p>
+			<p>La prossima gomma avrà come numero: <span id="next_id"></span></p>
+		</form>
+	</section>
+	<section id="catalogo" class="tabs">
+		<nav class="sub">
+		<ul>
+			<li><a href="#" class="active">Articoli</a></li>
+			<li><a href="#" class="">Prezzo</a></li>
+		</ul>
+		</nav>
+		<form class="subtabs" id="prezzo" action="#">
+			<p>Calcolo il preventivo: <input type="hidden" name="action" value="preventivo"></p>
+			<p>Pego gr:<input type="text" class="peso short" name="preventivo[peso]" pattern="\D"></p>
+			<p>Pezzi gomma<input type="text" class="pezzi short" name="preventivo[gomma]" pattern="\D"></p>
+			<p>Stampe totali<input type="number" class="stampe short" name="preventivo[pezzi]" value="100" pattern="{0-9}"></p>
+			<p>Per un totale di <span class="totpz"></span> pezzi dal peso complessivo di <span class="totkg"></span> kg</p>
+			<p>Il costo dell'articolo è il seguente: <br>
+			al kg il costo è pari a euro <span class="eurokg"></span><br>
+			al pezzo il costo è pari a euro <span class="europz"></span></p>
+		</form>
+		<form class="subtabs visibile" id="articoli" action="#">
+			<p>usa il carattere * per mostrare tutti gli articoli
+				<input type="hidden" name="action" value="filtra"></p>
+			<p>Filtra: <input type="text" name="filtra" id="filtra"></p>
+		</form>
+	</section>
+	<p class="message"></p>
+	<aside>
+		<form id="aggiorna" action="#"></form>
+		<div id="result"></div>
+	<!-- Dove appaiono i risultati di ricerca o delle gomme-->	
+	</aside>
+</div>
+<footer>
+  <p>Author: Marco Casalegno</p>
+  <p>Versione 27/03/2023</p>
+</footer>
+<!-- The Modal -->
+<div id="modal-w3" class="w3-modal">
+	<div class="w3-modal-content">
+	  <div class="w3-container">
+		<span onclick="document.getElementById('modal-w3').style.display='none'"
+		class="w3-button w3-display-topright">&times;</span>
+		<form></form>
+	  </div>
+	</div>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./gomme.js"></script>
+<script src="./articoli.js"></script>
+</body>
+</html>
